@@ -1,0 +1,78 @@
+body,html
+{
+    background-color: beige;
+    font-family: monospace;
+}
+/* Style buttons */
+.downlaod 
+{
+  background-color: #337AB7;
+  border: none;
+  color: white;
+  padding: 10px 38px;
+  font-size: 14px;
+  border-radius: 30px;
+}
+/* Darker background on mouse-over */
+.downlaod:hover 
+{
+  background-color: #337AB0;
+  color: white;
+}
+
+.navbar
+{
+    margin-bottom: 0px;
+}
+#header-nav
+{
+  background-color:#337AB7;
+  border-radius: 0;
+  border:0;
+}
+.navbar-brand h1
+{
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: .75;
+}
+
+h1 > span
+{
+  color: orange;
+}
+.parent
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.child
+{
+    background-color: white;
+    border-style: dashed;
+    border-color: #337AB7;
+    
+    padding-bottom: 20px;
+    
+	position: absolute;
+	top:50px;
+	/*bottom: 0;*/
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+.bottom-links
+{
+    color:orange;
+    font-weight: bold;
+    font-size: 17px;
+}
+.bottom-links:hover
+{
+    text-decoration: none;
+}
